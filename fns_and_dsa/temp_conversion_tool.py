@@ -1,5 +1,7 @@
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5.0 / 9.0
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9.0 / 5.0
+# ===== Global Conversion Factors =====
+
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5.0/9.0
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9.0/5.0
 FREEZING_POINT_F = 32.0
 
 def convert_to_celsius(fahrenheit):
