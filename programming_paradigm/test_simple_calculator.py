@@ -36,16 +36,16 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(-2, 3), -6)
 
     # ---- Division Tests ----
-    def test_divide_positive_numbers(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(10, 2), 5)
 
-    def test_divide_negative_numbers(self):
+    def test_division_negative_numbers(self):
         self.assertEqual(self.calc.divide(-10, 2), -5)
 
-    def test_divide_fraction_result(self):
+    def test_division_fraction_result(self):
         self.assertEqual(self.calc.divide(3, 2), 1.5)
 
-    def test_divide_by_zero_raises(self):
+    def test_division_by_zero_raises(self):
         with self.assertRaises(ZeroDivisionError):
             self.calc.divide(10, 0)
 
