@@ -1,8 +1,8 @@
 
 class BankAccount:
-    def __init__(self, initial_balance=0.0):
+    def __init__(self, current_balance=0.0):
         """Initialize the account with an optional initial balance (default = 0)."""
-        self.__account_balance = float(initial_balance)
+        self.__account_balance = float(current_balance)
 
     def deposit(self, amount):
         """Deposit a positive amount into the account."""
@@ -22,4 +22,4 @@ class BankAccount:
 
     def display_balance(self):
         """Return a formatted string with the current balance."""
-        return f"Current balance: ${self.__account_balance:.2f}"
+        return (f"Current balance: ${self.__account_balance:.2f}")
