@@ -22,4 +22,4 @@ class BankAccount:
 
     def display_balance(self):
         """Return a formatted string with the current balance."""
-        return ["Current balance: "]
+        return ["Current Balance: "]
