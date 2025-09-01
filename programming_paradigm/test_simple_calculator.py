@@ -19,10 +19,10 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(-2, 3), 1)
 
     # ---- Subtraction Tests ----
-    def test_subtract_positive_numbers(self):
+    def test_subtraction(self):
         self.assertEqual(self.calc.subtract(10, 5), 5)
 
-    def test_subtract_result_negative(self):
+    def test_subtraction_result_negative(self):
         self.assertEqual(self.calc.subtract(5, 10), -5)
 
     # ---- Multiplication Tests ----
