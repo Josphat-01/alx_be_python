@@ -8,13 +8,13 @@ class TestSimpleCalculator(unittest.TestCase):
         self.calc = SimpleCalculator()
 
     # ---- Addition Tests ----
-    def test_add_positive_numbers(self):
+    def test_addition_positive_numbers(self):
         self.assertEqual(self.calc.add(2, 3), 5)
 
-    def test_add_negative_numbers(self):
+    def test_addition_negative_numbers(self):
         self.assertEqual(self.calc.add(-2, -3), -5)
 
-    def test_add_mixed_sign_numbers(self):
+    def test_addition_mixed_sign_numbers(self):
         self.assertEqual(self.calc.add(-2, 3), 1)
 
     # ---- Subtraction Tests ----
