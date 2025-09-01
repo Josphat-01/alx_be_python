@@ -26,13 +26,13 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.subtract(5, 10), -5)
 
     # ---- Multiplication Tests ----
-    def test_multiply_positive_numbers(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(4, 5), 20)
 
-    def test_multiply_with_zero(self):
+    def test_multiplication_with_zero(self):
         self.assertEqual(self.calc.multiply(10, 0), 0)
 
-    def test_multiply_negative_numbers(self):
+    def test_multiplication_negative_numbers(self):
         self.assertEqual(self.calc.multiply(-2, 3), -6)
 
     # ---- Division Tests ----
