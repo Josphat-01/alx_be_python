@@ -19,7 +19,7 @@ class EBook(Book):
         self.file_size = file_size
 
     def __str__(self):
-        return f"E-Book: {self.title} by {self.author}, File size: {self.file_size}MB"
+        return f"EBook: {self.title} by {self.author}, File size: {self.file_size}MB"
 
 
 class PrintBook(Book):
@@ -30,7 +30,7 @@ class PrintBook(Book):
         self.page_count = page_count
 
     def __str__(self):
-        return f"Print Book: {self.title} by {self.author}, Pages: {self.page_count}"
+        return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 
 
 class Library:
@@ -48,6 +48,6 @@ class Library:
         if not self.books:
             print("The library is empty.")
         else:
-            print("Books in the library:")
+            print("Books: ")
             for book in self.books:
                 print(f" - {book}")
