@@ -50,4 +50,4 @@ class Library:
         else:
             print("Book: ")
             for book in self.books:
-                print(f"Book: {book}")
+                print({book})
